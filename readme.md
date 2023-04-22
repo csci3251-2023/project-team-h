@@ -11,3 +11,9 @@ We will do the tasks one by one as a team:
 # Code
 
 # Contributors
+
+{% for s in site.stu %}
+<div>&emsp;&raquo;<img src="{{s.image}}" />@{{ s.user }} ({{ s.name }})</div>
+<div>&emsp;&emsp;&raquo;{{ s.content | remove: '<p>' | remove: '</p>' }}</div>
+<br>
+{% endfor %}
