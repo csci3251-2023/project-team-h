@@ -10,8 +10,17 @@ We will do the tasks one by one as a team:
 
 # Code
 ```c
-{% raw %}{% include_relative code.c %}{% endraw %}
+// Your C code here
+#include <stdio.h>
 
+int main() {
+    //this is simple for loop
+    double size = 3.251;
+    for(int i = 0 ; i < size ; i++ )
+        printf("Hello csci3215_%d\n" , i);
+    return 0;
+}
+```
 
 
 
