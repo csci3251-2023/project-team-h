@@ -11,3 +11,10 @@ We will do the tasks one by one as a team:
 # Code
 
 # Contributors
+
+{% for stu in site.stu %}
+  * <img src="{{stu.image}}" style="width: 50px; height: 50px"> <a href="https://github.com/{{stu.user}}">@{{stu.user}}</a> ({{stu.name}}) 
+    * {{stu.content}}
+{% endfor %}
+
+Last updated: {{ site.time }}
