@@ -11,8 +11,6 @@ We will do the tasks one by one as a team:
 # Code
 
 # Contributors
-
-# Contributors
 <ul>
 {% for stu in site.stu %}
   <li><img src = "{{ stu.image }}" height="50" width="50"/>@{{ stu.user }}({{ stu.name }})
