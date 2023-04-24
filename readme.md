@@ -12,9 +12,13 @@ We will do the tasks one by one as a team:
 
 # Contributors
 
+# Contributors
+<ul>
 {% for stu in site.stu %}
-  * <img src="{{stu.image}}" style="width: 50px; height: 50px"> <a href="https://github.com/{{stu.user}}">@{{stu.user}}</a> ({{stu.name}}) 
-    * {{stu.content}}
+  <li><img src = "{{ stu.image }}" height="50" width="50"/>@{{ stu.user }}({{ stu.name }})
+      <ul>
+          <li><p>{{ stu.content | markdownify }}</p></li>
+      </ul>
+  </li>
 {% endfor %}
-
-Last updated: {{ site.time }}
+</ul>
