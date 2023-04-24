@@ -1,10 +1,22 @@
-// Your C code here
 #include <stdio.h>
+// Your C code here
+int main(void)
+{
+	//this is simple for loop
+	  int size = 7;
+      printf("\n********************************\n");         // Draw the top of the box
+      printf("*        Hello CSCI3215        *\n");
+      printf("*                              *\n");
 
-int main() {
-    //this is simple for loop
-    double size = 3.251;
-    for(int i = 0 ; i < size ; i++ )
-        printf("Hello csci3215_%d\n" , i);
+      for(int count = 1 ; count <= size ; ++count)
+      {
+      	printf("* Hello World, We are Team G!! *\n");
+      	printf("*   We have finished task %d!   *\n",count);
+      	printf("*                              *\n");
+	  }
+
+      printf("********************************\n");       // Draw the bottom of the box
+      return 0;
+        
     return 0;
 }
