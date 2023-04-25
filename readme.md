@@ -12,7 +12,8 @@ We will do the tasks one by one as a team:
 ```c 
 {% include_relative code.c %}
 ```
-![CI](https://github.com/csci3251-2023/project-team-h/actions/workflows/main.yml/badge.svg)
+![Workflow Status](https://github.com/csci3251-2023/project-team-h/actions/workflows/c-with-make.yml/badge.svg)
+
 
 # Contributors
 <ul>
