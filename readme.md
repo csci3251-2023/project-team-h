@@ -9,7 +9,10 @@ We will do the tasks one by one as a team:
 7. Promotion Manager: [promote our repo](https://github.com/csci3251-2023/project-team-h/issues/8) in **`csci3251-2023.github.io`**
 
 # Code
-{% raw %}{% include_relative code.c %}{% endraw %}
+```c 
+{% include_relative code.c %}
+```
+![CI](https://github.com/csci3251-2023/project-team-h/actions/workflows/main.yml/badge.svg)
 
 # Contributors
 <ul>
